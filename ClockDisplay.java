@@ -33,7 +33,7 @@ public class ClockDisplay
         }
     }
     public String mostrarHora(){
-        return hora.getDisplayValue() + "-" + minuto.getDisplayValue();
+        return hora.getDisplayValue() + ":" + minuto.getDisplayValue();
     }
         
     
